@@ -1,0 +1,48 @@
+# tests
+
+def test(lab_id,lab_name,test_name,result):
+    print(f'lab_id={lab_id}')
+    print(f'lab_name={lab_name}')
+    print(f'test_name={test_name}')
+    print(f'result={result}')
+    return'-E_test'
+
+print('------')
+print(f'test_1{test(202456,'Dr.lal path labs','blood group','o-positive')}')
+print('-,----------')
+print(f'test_2{test(1014563,'SRL labs','HIV','negative')}')
+print('-----')
+
+# calculate sum of data
+def calculate_sum(data):
+    return sum(data)
+data = [14,24,72,123]
+total = calculate_sum(data)
+print(f'the total sum of data is:{total}')
+
+
+#substraction and multiplication
+def sub_numbers (a,b):
+    return a-b
+result = sub_numbers(4,7)
+print(result)
+
+
+def mul_numbers(a,b):
+    return a*b
+result = mul_numbers (14,5)
+print(result)
+print('-------')
+
+# addition and division
+def add_numbers (a,b):
+    return a+b
+result= add_numbers(72,14)
+print(result)
+
+def div_numbers (a,b):
+    return a % b
+result= div_numbers(12,8)
+print(result)
+
+
